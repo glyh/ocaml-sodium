@@ -27,8 +27,10 @@ depends: [
 ]
 depexts: [
    ["libsodium-dev"] {os-family = "debian"} 
-   ["security/libsodium"] {os-family = "freebsd"} 
+   ["pkg-config"] {os-family = "debian"} 
+
    ["libsodium"] {os-distribution = "homebrew" & os = "macos"} 
+   ["pkgconf"] {os-distribution = "homebrew" & os = "macos"} 
 ]
 post-messages: [
   "This package requires installation of libsodium-dev (>= 1.0.9)"
