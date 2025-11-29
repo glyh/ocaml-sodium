@@ -16,7 +16,7 @@ build: [
   ["dune" "runtest"] {with-test}
 ]
 depends: [
-  "ocaml" {>= "4.01.0"}
+  "ocaml" {>= "5.2.1"}
   "dune" {build & >= "1.5"}
   "base-bigarray"
   "base-bytes"
